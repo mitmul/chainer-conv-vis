@@ -1,0 +1,7 @@
+.DS_Store
+.remote-sync.json
+__pycache__
+*.png
+*.model
+MnihCNN*
+for_mnih_cnn.py
