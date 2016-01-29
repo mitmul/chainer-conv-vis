@@ -36,7 +36,7 @@ def get_args():
     parser.add_argument('--gpu', type=int, default=-1)
     parser.add_argument('--img_size', type=int, default=128)
     parser.add_argument('--target_layer', type=str, default='conv5_1')
-    parser.add_argument('--filter_num', type=str, default=9)
+    parser.add_argument('--filter_num', type=int, default=9)
     args = parser.parse_args()
 
     return args

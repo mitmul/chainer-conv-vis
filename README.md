@@ -11,3 +11,7 @@ $ bash download.sh
 ```
 $ python visualize.py
 ```
+
+### Result
+
+![result.png](https://raw.githubusercontent.com/wiki/mitmul/chainer-conv-vis/images/result.png)

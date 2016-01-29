@@ -5,3 +5,4 @@ __pycache__
 *.model
 MnihCNN*
 for_mnih_cnn.py
+chainer-conv-vis.wiki
