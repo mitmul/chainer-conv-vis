@@ -34,7 +34,7 @@ def deprocess_image(x):
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--gpu', type=int, default=-1)
-    parser.add_argument('--img_size', type=int, default=128)
+    parser.add_argument('--img_size', type=int, default=224)
     parser.add_argument('--target_layer', type=str, default='conv5_1')
     parser.add_argument('--filter_num', type=int, default=9)
     args = parser.parse_args()
@@ -89,4 +89,4 @@ if __name__ == '__main__':
                (x_pos + 1) * pad + x_pos * img_width:
                (x_pos + 1) * pad + x_pos * img_width + img_width, :] = y
 
-    io.imsave('result.png', canvas)
+    io.imsave('{}.png'.format(args.target_layer), canvas)
